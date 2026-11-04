@@ -1,0 +1,61 @@
+# macOS / editor noise
+.DS_Store
+*.swp
+*.log
+.idea/
+.vscode/
+
+# Local secrets and signing material
+.env
+.env.*
+*.pem
+*.p12
+*.jks
+*.keystore
+mobile/android/key.properties
+mobile/env.json
+
+# Private working notes kept locally (AI agent rules, build guide, dev logs)
+/AGENTS.md
+web/AGENTS.md
+web/CLAUDE.md
+/Encourise_PRD.md
+docs/mobile-work-summary-*.md
+
+# Release artifacts and QA screenshots
+releases/*
+!releases/.gitkeep
+
+# Temporary local work
+tmp/
+supabase/.temp/
+
+# Flutter / Dart build output
+mobile/.dart_tool/
+mobile/.flutter-plugins-dependencies
+mobile/.pub-cache/
+mobile/.pub/
+mobile/build/
+mobile/coverage/
+mobile/android/.gradle/
+mobile/android/.kotlin/
+mobile/android/build/
+mobile/android/app/debug/
+mobile/android/app/profile/
+mobile/android/app/release/
+
+# Local model assets
+*.litertlm
+*.gguf
+mobile/assets/models/
+
+# Web dependencies and build output
+web/node_modules/
+web/.next/
+web/out/
+web/build/
+web/coverage/
+web/.vercel/
+web/.env*
+web/*.tsbuildinfo
+web/next-env.d.ts
