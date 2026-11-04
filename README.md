@@ -22,6 +22,13 @@ tutors need a connection to a cloud model. Encourise moves the model onto the
 device, so tutoring keeps working offline and student conversations stay on the
 phone.
 
+## Try the App
+
+Download the Android APK from the
+[latest release](https://github.com/iwyusdaz/encourise-app/releases/latest).
+The release page has install steps and the link to the AI model, a separate
+2.6 GB download.
+
 ## Features
 
 **Student app (Android, Flutter)**
@@ -88,7 +95,7 @@ flutter test
 flutter run
 ```
 
-The app needs the Gemma model file, which is about 2.4 GB and not included in
+The app needs the Gemma model file, which is about 2.6 GB and not included in
 this repository. Download `gemma-4-E2B-it.litertlm` from
 [litert-community/gemma-4-E2B-it-litert-lm](https://huggingface.co/litert-community/gemma-4-E2B-it-litert-lm)
 and put it in the phone's Downloads folder. The app finds it automatically,
